@@ -1,0 +1,40 @@
+p {
+  margin: 5px 0;
+}
+
+.list-item {
+  margin: 0 auto;
+  width: 300px;
+  padding: 5px 10px 10px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  align-items: center;
+}
+
+.list-item-content {
+  width: 95%;
+  text-align: left;
+}
+
+.list-item:first-child {
+  margin-top: 15px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.list-item:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .list-item {
+    width: 300px;
+  }
+}
